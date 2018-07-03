@@ -12,7 +12,6 @@ from util.utility import is_url
 def extract_images(video, image_path, interval=1):
     count = 0
     # check if video path string is url
-    print("in url")
     if is_url(video):
         video_pafy = pafy.new(video)
         video = video_pafy.getbest().url
@@ -39,4 +38,4 @@ if __name__ == "__main__":
     a.add_argument("--video", help="path to video")
     a.add_argument("--imagePath", help="path to images")
     args = a.parse_args()
-    extract_images(args.video, args.imagePath, 1)
+    extract_images(args.video, args.imagePath)
