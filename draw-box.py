@@ -11,8 +11,8 @@ br_list = []
 object_list = []
 
 # constants
-image_folder = 'util/images'
-savedir = 'util/annotations'
+image_folder = 'images'
+savedir = 'annotations'
 obj = 'alarm_clock'
 
 

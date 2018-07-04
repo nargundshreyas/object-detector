@@ -1,0 +1,1 @@
+<annotation><folder>util/images</folder><filename>clock-000061.png</filename><segmented>0</segmented><size><width>235</width><height>215</height><depth>3</depth></size><object><name>alarm_clock</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>16</xmin><ymin>13</ymin><xmax>212</xmax><ymax>199</ymax></bndbox></object></annotation>
