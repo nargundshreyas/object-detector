@@ -1,6 +1,8 @@
 # A general purpose utility script consisting number of useful methods.
 # author: shreyasn
 
+from six.moves.urllib.parse import urlparse
+
 def is_url(path):
     try:
         result = urlparse(path)
